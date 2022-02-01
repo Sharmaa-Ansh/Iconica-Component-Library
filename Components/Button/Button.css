@@ -1,0 +1,120 @@
+@import url(/Styles.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+
+.btn{
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 0.6rem 1.1rem;
+}
+
+.btn--Primary{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn--Primary:hover{
+    background-color: var(--primary-hover);
+}
+
+.btn--Secondary{
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.btn--Secondary:hover{
+    background-color: var(--secondary-hover);
+}
+
+.btn--Error{
+    background-color: var(--error-color);
+    color: white;
+}
+
+.btn--Error:hover{
+    background-color: var(--error-hover);
+}
+
+.btn--Success{
+    background-color: var(--success-color);
+    color: white;
+}
+
+.btn--Success:hover{
+    background-color: var(--success-hover);
+}
+
+.btn--Primary-Outlined{
+    background-color: white;
+    border:1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn--Primary-Outlined:hover{
+    background-color: var(--primary-hover);
+    color: white;
+}
+
+.btn--Secondary-Outlined{
+    background-color: white;
+    border:1px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+.btn--Secondary-Outlined:hover{
+    background-color: var(--secondary-hover);
+    color: white;
+}
+
+.btn--Error-Outlined{
+    background-color: white;
+    border:1px solid var(--error-color);
+    color: var(--error-color);
+}
+
+.btn--Error-Outlined:hover{
+    background-color: var(--error-hover);
+    color: white;
+}
+
+.btn--Success-Outlined{
+    background-color: white;
+    border:1px solid var(--success-color);
+    color: var(--success-color);
+}
+
+.btn--Success-Outlined:hover{
+    background-color: var(--success-hover);
+    color: white;
+}
+
+.btn--Primary-Link{
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration:underline ;
+}
+
+.btn--Primary-Link:hover{
+    background-color: var(--primary-hover);
+}
+
+.btn-Float{
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    padding: 1.5rem;
+    border-radius: 5rem;
+}
+
+.btn-Float-Icon{
+    position: relative;
+    right: 2.8rem;
+    color: white;
+}
+
+.btn-Float-Icon:hover{
+    cursor: pointer;
+}
+
+
+

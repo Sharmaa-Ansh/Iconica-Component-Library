@@ -1,0 +1,43 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --primary-color : #00378F;
+    --default-color : black;
+    --secondary-color : #3E90A3;
+    --error-color : #F44336;
+    --success-color :#4CAF50;
+    --warning-color : #FF9800;
+
+    --primary-hover : #002766;
+    --secondary-hover: #327685;
+    --error-hover : #d31609 ;
+    --success-hover: #0d8611;
+    --active-hover : #058ce0;
+
+    --off-white : #F6F9FC;
+    --active-color : #1EA7FD;
+}
+
+.body-container{
+    display: flex;
+    max-width: 90%;
+    margin: auto;
+}
+
+.Code-Snippet-Display{
+    box-sizing: border-box;
+    width: 100%;
+    max-height: 300px;
+    padding: 1rem 0 ;
+    background-color: #FAFAFA;
+    margin: 2rem ;
+    overflow: auto;
+    border: none;
+}
