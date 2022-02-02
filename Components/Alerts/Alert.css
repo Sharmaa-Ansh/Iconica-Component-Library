@@ -1,0 +1,56 @@
+@import url(/Styles.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+.Flex-Coloumn{
+    flex-direction: column;
+}
+
+.Alert{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.35rem;
+}
+
+.Alert-Primary-Filled{
+    color: var(--primary-color);
+    background-color: #7FD2E6;
+}
+
+.Alert-Error-Filled{
+    color: var(--error-color);
+    background-color: #FCC5C5;
+}
+
+.Alert-Success-Filled{
+    color: var(--success-color);
+    background-color:#84F1C9 ;
+}
+
+.Alert-Warning-Filled{
+    color: var(--warning-color);
+    background-color:#FFE7C5 ;
+}
+
+.Alert-Primary-Outlined{
+    color: var(--primary-color);
+    border: solid 1px var(--primary-color);
+    font-weight: 500;
+}
+
+.Alert-Error-Outlined{
+    color: var(--error-color);
+    border: solid 1px var(--error-color);
+    font-weight: 500;
+}
+
+.Alert-Success-Outlined{
+    color: var(--success-color);
+    border: solid 1px var(--success-color);
+    font-weight: 500;
+}
+
+.Alert-warning-Outlined{
+    color: var(--warning-color);
+    border: solid 1px var(--warning-color);
+    font-weight: 500;
+}
