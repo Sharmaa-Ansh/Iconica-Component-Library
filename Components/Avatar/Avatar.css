@@ -1,0 +1,29 @@
+@import url(/Styles.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+
+.Avatar{
+    border-radius: 50%
+
+} 
+
+.Avatar__Img-sm{
+    height: 3.125rem;
+    width: 3.125rem;
+}    
+
+.Avatar__Img-md{
+height: 6.25rem;
+width: 6.25rem;
+}
+
+.Avatar__Img-lg{
+    height: 9.375rem;
+    width: 9.375rem;
+}    
+
+.Avatar-Standard{
+    height: 3rem;
+    width: 3rem;
+}
+
