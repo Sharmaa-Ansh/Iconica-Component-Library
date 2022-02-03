@@ -1,0 +1,15 @@
+@import url(/Styles.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+
+.Img-Round{
+    height: 9.375rem;
+    width: 9.375rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.Img-Full{
+    width: 100%;
+    height: auto;
+}
