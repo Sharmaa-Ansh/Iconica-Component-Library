@@ -1,0 +1,151 @@
+@import url(/Styles.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+.CardTextOnly{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    border-radius: 0.5rem;
+    width: 18rem;
+    min-height: 8rem;
+    max-height: 12rem;
+}
+
+.Card__Title{
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.Card__Text{
+    font-weight: 400;
+    margin-left: 1rem;
+    margin-top: 1.1rem;
+    margin-right: 0.5rem;
+}
+
+.CardWithImage{
+    width: 16rem;
+    height: 25rem;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+
+    border-radius: 0.3rem;
+    object-fit: cover;
+}
+
+.Card__Image{
+    height: 12rem;
+    width: 100%;
+}
+
+.Card__Image Img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+}
+
+.Card__Image-Ecom{
+    height: 15rem;
+    width: 100%;
+}
+
+.Card__Image-Ecom Img{
+    height: 100%;
+    width: 100%;
+}
+
+.Card__Title-Ecom{
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.Card__Title-Ecom + p{
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+}
+
+.Card__Price{
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+.Current-Price{
+    font-weight: 500;
+    color: var(--success-color);
+}
+
+.Old-Price{
+    font-weight: 300;
+    text-decoration:line-through;
+}
+
+.discount{
+    color: var(--error-color);
+    font-weight: 400;
+}
+
+.Card__CTAbtn{
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.Card__Badge-Secondary{
+    background-color: var(--secondary-color);
+    max-width: min-content;
+    color: var(--white);
+    border-radius: 0 5px 5px 0;
+    padding: 2px 7px;
+    position: relative;
+    bottom: 23rem;
+    
+}
+
+.Card__DismissBTN{
+    position: relative;
+    bottom: 25rem;
+    left: 14rem;
+}
+
+
+.CardWithImage-Horizontal{
+    width: 39rem;
+    height: 12rem;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+
+    border-radius: 0.3rem;
+    object-fit: cover;
+    padding: 0.5rem;
+    display: flex;
+}
+
+.CardWithImage-Horizontal .Card__Image-Ecom{
+    height: 100%;
+    width: 9rem;
+}
+
+.CardWithImage-Horizontal .Card__Image-Ecom Img{
+    border-radius: 0.3rem;
+}
+
+.CardWithImage-Horizontal .Card__Badge-Secondary{
+    position: relative;
+    right: 9rem;
+    bottom: 8.5rem;
+    font-size: 0.8rem;
+}
+
+  .opacity-half{
+      opacity: 50%;
+  }
+
+  .overlay__Text{
+      position: relative;
+      bottom: 18rem;
+      left:1.8rem;
+      font-size: 2.2rem;
+      font-weight: 500;
+  }
