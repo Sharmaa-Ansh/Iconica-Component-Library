@@ -1,0 +1,39 @@
+@import url(/Styles.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+
+.container{
+    display: flex;
+    max-width: 90%;
+    margin: auto;
+    border: solid 1px red;
+    margin-top: 3rem;
+    height: 100%;
+}
+
+
+.Page__Infobox{
+    border: solid 1px;
+    min-width: 50%;
+    font-size: 1.5rem;
+    padding-right: 1rem;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    text-align: center;
+}
+
+.Page__Image{
+    border: solid 1px;
+    min-width: 50%; 
+
+}
+
+
+.CTA-container{
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+

@@ -1,4 +1,6 @@
-
+@import url("https://use.fontawesome.com/releases/v6.0.0/css/all.css" );
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url(/css/footer.css);
 
 *{
     margin: 0;
@@ -14,6 +16,7 @@
     --error-color : #F44336;
     --success-color :#4CAF50;
     --warning-color : #FF9800;
+    --white:#ffffff;
 
     --primary-hover : #002766;
     --secondary-hover: #327685;
@@ -23,8 +26,6 @@
 
     --off-white : #F6F9FC;
     --active-color : #1EA7FD;
-    --white:#FFFFFF;
-
 }
 
 .body-container{
@@ -36,11 +37,10 @@
 .Code-Snippet-Display{
     box-sizing: border-box;
     width: 100%;
-    max-height: 18.75rem;
+    max-height: 300px;
     padding: 1rem 0 ;
     background-color: #FAFAFA;
     margin: 2rem ;
     overflow: auto;
     border: none;
 }
-

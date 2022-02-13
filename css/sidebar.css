@@ -1,6 +1,45 @@
 .sidebar{
-    border: solid black;
-    width: 17.5rem;
+    /* border: solid black; */
+    min-width: 240px;
+    padding-top: 1rem;
+    /* border-right: 1px solid; */
+    box-shadow: 4px 2px 6px -5px #222;
+    height: min-content;
+    position: sticky;
+    top: 0;
+}
+
+.sidebar li{
+    font-weight: 400;
+    list-style-type: none;
+    margin: 1rem 0;
+    font-weight: 400;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+}
+
+.sidebar li:hover{
+    background-color: #E6E6E6;
 }
 
 
+
+.sidebar__Component{
+    text-decoration: none;
+    color: #3e4152;
+    font-size: 1.1rem;
+}
+
+
+.sidebar__Component-heading{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 0;
+    color: black;
+    text-decoration: none;
+
+}
+
+.sidebar li:nth-child(1){
+    margin-top: 0;
+}
