@@ -1,0 +1,33 @@
+@import url(/Styles.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+.Input__Field{
+width: 100%;
+}
+
+.Input__Field label{
+    display: block;
+}
+
+.Input__Field--Text{
+    /* background: #fff; */
+    border: 1px solid #999;
+    padding:.6rem .7rem;
+    /* float: left; */
+    font-size: .8rem;
+    margin: 5px 0;
+    width: 100%;
+    transition: .3s all ease;
+    outline: none;
+    border-radius: 6px;
+}
+
+.err{
+    color: var(--error-color);
+
+}
+
+.err > Input{
+    border-color: var(--error-color);
+}
+

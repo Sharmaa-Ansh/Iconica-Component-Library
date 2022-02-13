@@ -1,0 +1,30 @@
+@import url(/Styles.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+.Modal{ 
+    height: 20rem;
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4rem;
+    text-align: center;
+    background-color: #EBF2FF;
+    border-radius: 10px;
+}
+
+.btn-container{
+display: flex;
+gap: 1.5rem;
+margin-top: 0.5rem;
+}
+
+.Modal p{
+    margin: 1rem 0;
+    font-weight: 400;
+}
+
+.Modal h2{
+    font-size: 2.2rem;
+}
