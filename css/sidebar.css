@@ -43,3 +43,12 @@
 .sidebar li:nth-child(1){
     margin-top: 0;
 }
+
+.active-component{
+    background-color: #E6E6E6;
+}
+
+.active-component-colour{
+    font-weight: 500;
+    color: var(--secondary-color);
+}
