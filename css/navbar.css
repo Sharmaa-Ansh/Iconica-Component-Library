@@ -4,8 +4,6 @@
     min-height: 5rem;
     display: flex;
     align-items: center;
-    /* border: solid black; */
-    /* border-bottom: solid 1px; */
     box-shadow: 0 4px 6px -5px #222;
     justify-content: space-between;
 
