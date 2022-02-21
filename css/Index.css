@@ -6,27 +6,34 @@
     display: flex;
     max-width: 90%;
     margin: auto;
-    border: solid 1px red;
     margin-top: 3rem;
     height: 100%;
 }
 
 
 .Page__Infobox{
-    border: solid 1px;
     min-width: 50%;
     font-size: 1.5rem;
     padding-right: 1rem;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
     text-align: center;
 }
 
-.Page__Image{
-    border: solid 1px;
-    min-width: 50%; 
+.infobox__heading{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 7rem;
+    margin-bottom: 1rem;
+}
 
+.infobox__subtitle{
+    font-weight: 20000;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.Page__Image{
+    min-width: 50%; 
+    margin-bottom: 3rem;
 }
 
 
@@ -35,5 +42,6 @@
     justify-content: center;
     font-size: 1.1rem;
     margin-top: 1rem;
+    gap: 2rem;
 }
 
